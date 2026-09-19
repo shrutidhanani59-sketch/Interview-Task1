@@ -16,15 +16,16 @@ document.querySelector('.userNumber').onchange = function () {
     document.querySelector('.box').innerHTML = document.querySelector('.userNumber').value;
 
 
-    console.log(Math.floor(Math.random));
+  console.log(parseInt(Math.random)*100);
+  
 
-// if(Math.random > document.querySelector('.userNumber').value)
-// {
-//     alert(" guess Number is high");
-// }
-// else{
-//     alert(" guess Number is low");
-// }
+if(Math.random > document.querySelector('.userNumber').value)
+{
+    alert(" guess Number is high");
+}
+else{
+    alert(" guess Number is low");
+}
 
 }
 
