@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 252, 3);
+    
+}
+
+.gameScreen h1
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input{
+    
+    width: 200px;
+    height: 100px;
+    padding-left: 80px;
+    padding-top: 20px;
+    background-color: white;
+    border: none;
+    margin-left: 53rem;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.box
+{
+    border: 3px solid white;
+     width: 200px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+    padding-left: 80px;
+    padding-top: 20px;
+
+}
+button
+{
+    padding: 10px 20px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.homeScreen p{
+    text-align: center;
+   background-color: white;
+   width: 800px;
+   margin-top: 400px;
+   margin-left: 550px;
+   padding: 10px;
+   border-radius: 20px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.homeScreen p:hover{
+    cursor: pointer;
+}
